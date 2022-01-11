@@ -10,9 +10,9 @@ public class Ej2 {
 		System.out.println("Variable N = " + n);
 		System.out.println("Variable A = " + a);
 		System.out.println("Variable C = " + c);
-		System.out.println(n + " + " + a + " = " + (n + a));
-		System.out.println(a + " - " + n + " = " + (a - n));
-		System.out.println("Valor numérico del carácter " + c + " = " + (int)c);
+		System.out.println(n + " + " + a + " = " + (n + a)); //sumamos varables 
+		System.out.println(a + " - " + n + " = " + (a - n)); //restamos el valor int al double
+		System.out.println("Valor numérico del carácter " + c + " = " + (int)c); //casteamos el caracter a int para saber su valor en ascii
 
 	}
 
